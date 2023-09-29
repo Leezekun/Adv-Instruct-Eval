@@ -1,7 +1,7 @@
 export OPENAI_API_KEY='xxx'
 export COHERE_API_KEY='xxx'
 export ANTHROPIC_API_KEY='xxx'
-export HF_TRANSFORMER_CACHE_PATH='/mnt/raid0/zekun/.cache/huggingface/transformers/'
+export HF_TRANSFORMER_CACHE_PATH='xxx'
 
 devices=1,2,3,4
 
