@@ -2,5 +2,6 @@
 __pycache__/
 __deprecated__/
 prepare_*.py
+data_loader.py
 *-dev.jsonl
 *-train.jsonl
