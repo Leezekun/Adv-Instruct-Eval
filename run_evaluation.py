@@ -5,7 +5,7 @@ import random
 import argparse
 from tqdm import tqdm, trange
 
-from utils import *
+from llm_utils import *
 from llm_configs import llm_configs
 
 

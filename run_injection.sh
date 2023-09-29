@@ -1,4 +1,4 @@
-for position in start middle end random
+for position in start # middle end random
 do
     for prefix_type in direct ignore
     do
