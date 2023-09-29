@@ -36,4 +36,4 @@ Once the data is prepared, proceed with evaluating your LLM.
 1. All parameters from the Injection section to indicate the data you intend to evaluate on.
 2. `model`: specify the alias of the model that you intend to evaluate (recorded in the `llm_configs.py` file).
 
-We also provide the human evaluation protocol and evaluation results in the `./human_evals/`.
+We provide the inference results in the `./evaluation/` directory. The human evaluation protocol and evaluation results are provided in the `./human_evals/` directory.
