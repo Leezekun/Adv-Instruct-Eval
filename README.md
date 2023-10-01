@@ -30,7 +30,7 @@ dataset: Use either NaturalQuestions or TriviaQA.
 ### Evaluation
 Once the data is prepared, proceed with evaluating your LLM.
 
-* LLM Inference Code: Check `llm_utils.py`` for the necessary code for LLM inference.
+* LLM Inference Code: Check `llm_utils.py` for the necessary code for LLM inference.
 * LLM Configuration: Add the model you intend to evaluate in `llm_configs.py` and assign an alias.
 * Evaluation Parameters: Specify the following arguments:
 1. All parameters from the Injection section to indicate the data you intend to evaluate on.
