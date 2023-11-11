@@ -19,12 +19,12 @@ To avoid being guardrailed by LLM vendors and exclude the influence of malicious
 ### Injection (Evaluation data preparation)
 Insert the adversarial instructions into the question-answering evaluation samples. Adjust the injection using the following parameters:
 
-position: Where to embed the adversarial instruction in the context (web search results).
-prefix_type: Choose between direct (no prefix) or ignore (prepend with "ignore previous prompt").
-task_type: Type of instruction to inject – relevant for context-appropriate questions or irrelevant for random directives via self-instruct.
-qg_model: Model used for generating the relevant adversarial questions.
-test_mode: Set evaluation mode: original (original query only), injected (injected query only), or original+injected (both).
-dataset: Use either NaturalQuestions or TriviaQA.
+- position: Where to embed the adversarial instruction in the context (web search results).
+- prefix_type: Choose between direct (no prefix) or ignore (prepend with "ignore previous prompt").
+- task_type: Type of instruction to inject – relevant for context-appropriate questions or irrelevant for random directives via self-instruct.
+- qg_model: Model used for generating the relevant adversarial questions.
+- test_mode: Set evaluation mode: original (original query only), injected (injected query only), or original+injected (both).
+- dataset: Use either NaturalQuestions or TriviaQA.
 
 
 ### Evaluation
